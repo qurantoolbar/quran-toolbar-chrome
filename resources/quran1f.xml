@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE HolyQuran [
+	<!ATTLIST HolyQuran TranslationID CDATA #REQUIRED>
+	<!ATTLIST HolyQuran Writer CDATA #REQUIRED>
+	<!ATTLIST HolyQuran Language CDATA #REQUIRED>
+	<!ATTLIST HolyQuran LanguageIsoCode CDATA #REQUIRED>
+	<!ATTLIST HolyQuran Direction (rtl|ltr) #REQUIRED>
+	<!ELEMENT HolyQuran (Chapter+)>
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 22 December 2015 09:46 (UTC) from www.qurandatabase.org -->
+<!--
+Tanzil Quran Text
+Copyright (C) 2008-2009 Tanzil.info
+License: Creative Commons 3.0 Unported (by-nd)
+
+This copy of quran text is carefully produced, highly
+verified and continuously monitored by a group of specialists
+at the Tanzil project.
+
+TERMS OF USE:
+- Permission is granted to copy and distribute verbatim copies
+  of this text, but CHANGING IT IS NOT ALLOWED.
+
+- This quran text can be used in any website or application,
+  provided its source (Tanzil.info) is clearly indicated, and
+  a link is made to http://tanzil.info to enable users to keep
+  track of changes.
+
+- This copyright notice shall be included in all verbatim copies
+  of the text, and shall be reproduced appropriately in all files
+  derived from or containing substantial portion of this text.
+
+  Please check updates at: http://tanzil.info/updates/
+-->
+<HolyQuran TranslationID="1" Writer="(Original Book)" Language="Arabic" LanguageIsoCode="ara" Direction="rtl">
+	<Chapter ChapterID="1" ChapterName="الفاتحة">
+		<Verse VerseID="1"><![CDATA[بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ]]></Verse>
+		<Verse VerseID="2"><![CDATA[الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ]]></Verse>
+		<Verse VerseID="3"><![CDATA[الرَّحْمَٰنِ الرَّحِيمِ]]></Verse>
+		<Verse VerseID="4"><![CDATA[مَالِكِ يَوْمِ الدِّينِ]]></Verse>
+		<Verse VerseID="5"><![CDATA[إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ]]></Verse>
+		<Verse VerseID="6"><![CDATA[اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ]]></Verse>
+		<Verse VerseID="7"><![CDATA[صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ]]></Verse>
+	</Chapter>
+  <Chapter ChapterID="109" ChapterName="الكافرون">
+    <Verse VerseID="1"><![CDATA[بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ قُلْ يَا أَيُّهَا الْكَافِرُونَ]]></Verse>
+    <Verse VerseID="2"><![CDATA[لَا أَعْبُدُ مَا تَعْبُدُونَ]]></Verse>
+    <Verse VerseID="3"><![CDATA[وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ]]></Verse>
+    <Verse VerseID="4"><![CDATA[وَلَا أَنَا عَابِدٌ مَا عَبَدْتُمْ]]></Verse>
+    <Verse VerseID="5"><![CDATA[وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ]]></Verse>
+    <Verse VerseID="6"><![CDATA[لَكُمْ دِينُكُمْ وَلِيَ دِينِ]]></Verse>
+  </Chapter>
+  <Chapter ChapterID="110" ChapterName="النصر">
+    <Verse VerseID="1"><![CDATA[بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ]]></Verse>
+    <Verse VerseID="2"><![CDATA[وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا]]></Verse>
+    <Verse VerseID="3"><![CDATA[فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ ۚ إِنَّهُ كَانَ تَوَّابًا]]></Verse>
+  </Chapter>
+  <Chapter ChapterID="111" ChapterName="المسد">
+    <Verse VerseID="1"><![CDATA[بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ]]></Verse>
+    <Verse VerseID="2"><![CDATA[مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ]]></Verse>
+    <Verse VerseID="3"><![CDATA[سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ]]></Verse>
+    <Verse VerseID="4"><![CDATA[وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ]]></Verse>
+    <Verse VerseID="5"><![CDATA[فِي جِيدِهَا حَبْلٌ مِنْ مَسَدٍ]]></Verse>
+  </Chapter>
+  <Chapter ChapterID="112" ChapterName="الاخلاص">
+    <Verse VerseID="1"><![CDATA[بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ قُلْ هُوَ اللَّهُ أَحَدٌ]]></Verse>
+    <Verse VerseID="2"><![CDATA[اللَّهُ الصَّمَدُ]]></Verse>
+    <Verse VerseID="3"><![CDATA[لَمْ يَلِدْ وَلَمْ يُولَدْ]]></Verse>
+    <Verse VerseID="4"><![CDATA[وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ]]></Verse>
+  </Chapter>
+  <Chapter ChapterID="113" ChapterName="الفلق">
+    <Verse VerseID="1"><![CDATA[بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ]]></Verse>
+    <Verse VerseID="2"><![CDATA[مِنْ شَرِّ مَا خَلَقَ]]></Verse>
+    <Verse VerseID="3"><![CDATA[وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ]]></Verse>
+    <Verse VerseID="4"><![CDATA[وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ]]></Verse>
+    <Verse VerseID="5"><![CDATA[وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ]]></Verse>
+  </Chapter>
+  <Chapter ChapterID="114" ChapterName="الناس">
+    <Verse VerseID="1"><![CDATA[بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ النَّاسِ]]></Verse>
+    <Verse VerseID="2"><![CDATA[مَلِكِ النَّاسِ]]></Verse>
+    <Verse VerseID="3"><![CDATA[إِلَٰهِ النَّاسِ]]></Verse>
+    <Verse VerseID="4"><![CDATA[مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ]]></Verse>
+    <Verse VerseID="5"><![CDATA[الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ]]></Verse>
+    <Verse VerseID="6"><![CDATA[مِنَ الْجِنَّةِ وَالنَّاسِ]]></Verse>
+  </Chapter>
+</HolyQuran>
